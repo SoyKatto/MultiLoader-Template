@@ -1,35 +1,36 @@
 {
     "schemaVersion": 1,
-    "id": "modid",
+    "id": "deathspectator",
     "version": "${version}",
-  
-    "name": "Example Mod",
-    "description": "This is an example description! Tell everyone what your mod is about!",
+
+    "name": "DeathSpectator",
+    "description": "Death system that puts you as a spectator!",
     "authors": [
-      "Me!"
+      "Katto",
+      "BanGameStudios"
     ],
     "contact": {
-      "homepage": "https://fabricmc.net/",
-      "sources": "https://github.com/FabricMC/fabric-example-mod"
+      "homepage": "https://bangamestudios.carrd.co/",
+      "issues": "https://github.com/BanGameStudios/DeathSpectator/issues/"
     },
   
-    "license": "CC0-1.0",
-    "icon": "assets/modid/icon.png",
+    "license": "All rights reserved",
+    "icon": "deathspectator.png",
   
     "environment": "*",
     "entrypoints": {
       "main": [
-        "com.example.examplemod.ExampleMod"
+        "me.katto.deathspectator.Deathspectator"
       ]
     },
     "mixins": [
-      "modid.mixins.json"
+      "deathspectator.mixins.json"
     ],
   
     "depends": {
       "fabricloader": ">=0.14",
       "fabric": "*",
-      "minecraft": "1.19.x",
+      "minecraft": "~1.19.2",
       "java": ">=17"
     },
     "suggests": {

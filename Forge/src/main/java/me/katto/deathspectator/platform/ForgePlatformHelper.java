@@ -1,6 +1,6 @@
-package com.example.examplemod.platform;
+package me.katto.deathspectator.platform;
 
-import com.example.examplemod.platform.services.IPlatformHelper;
+import me.katto.deathspectator.platform.services.IPlatformHelper;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.loading.FMLLoader;
 

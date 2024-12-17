@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package me.katto.deathspectator.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import me.katto.deathspectator.Constants;
+import me.katto.deathspectator.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 

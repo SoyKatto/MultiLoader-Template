@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package me.katto.deathspectator.platform.services;
 
 public interface IPlatformHelper {
 

@@ -1,6 +1,6 @@
-package com.example.examplemod.platform;
+package me.katto.deathspectator.platform;
 
-import com.example.examplemod.platform.services.IPlatformHelper;
+import me.katto.deathspectator.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {
